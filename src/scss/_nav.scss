@@ -1,0 +1,10 @@
+nav .navbar-toggle {
+    margin-top: 15px; }
+    @media (max-width: 768px) {
+      nav .navbar-toggle {
+        margin-top: 10px;
+        background-color: $redcolor; }
+        nav .navbar-toggle:hover {
+          background-color: $redcolor; } }
+    nav .navbar-toggle .icon-bar {
+      background: #fff; }

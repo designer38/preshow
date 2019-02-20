@@ -1,0 +1,47 @@
+.history-section {
+    width: 100%;
+    background-color: $lightcolor;
+    text-align: center;
+    h2.no-span {
+        font-size: 30px;
+        font-family: "lato";
+        font-weight: 500;
+        color: $redcolor;
+        
+        text-align: center;
+        
+    }
+    .history-box {
+        padding: 5rem;
+        background-color: white; // h2.no-span {
+        //     display: table;
+        //     white-space: nowrap;
+        //     &:before, &:after {
+        //       border-top: 2px solid $redcolor;
+        //       content: '';
+        //       display: table-cell;
+        //       position: relative;
+        //       top: 0.5em;
+        //       width: 45%;
+        //     }
+        //     &:before { right:10%; }
+        //     &:after { left: 10%; }
+        // }
+        // h2.no-span2 {
+        //     display: table;
+        //     white-space: nowrap;
+        //      &:after {
+        //       border-right: 2px solid $redcolor;
+        //       content: '';
+        //       display: table-cell;
+        //       position: relative;
+        //       top: 0.5em;
+        //       width: 45%;
+        //     }
+        // }
+        .history-content {
+            text-align: center;
+            border: solid $redcolor 2px;
+        }
+    }
+}
