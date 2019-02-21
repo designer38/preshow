@@ -6384,6 +6384,7 @@ footer {
   margin-top: 0.25rem;
   background-image: url("bg naming.png");
   background-size: cover;
+  background-position: center;
   background-color: #EAEAEA;
   height: 50vh;
   display: table; }
@@ -6478,7 +6479,7 @@ footer {
   .news .small-card {
     background-color: white;
     width: 100%;
-    height: 230px;
+    height: 20%;
     border-radius: 12px;
     padding: 2rem; }
     .news .small-card .text-red {
@@ -6512,7 +6513,7 @@ footer {
     border-radius: 12px;
     position: relative;
     overflow: hidden;
-    height: 400px; }
+    height: 40%; }
     .news .box-style .card-body::before {
       content: "JAN";
       color: #C92127; }
@@ -6551,7 +6552,7 @@ footer {
     border-radius: 12px;
     position: relative;
     overflow: hidden;
-    height: 520px;
+    height: 45%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     overflow: hidden; }
